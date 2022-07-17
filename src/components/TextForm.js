@@ -71,6 +71,7 @@ const removeExtraSpace = () => {
   return (
         <>
             <div className= 'my-4 ' >
+                <h2>{props.tittle}</h2>
                 <div className="mb-3">
 
                     <textarea className="form-control" id="myBox" value={text} onChange={handleOnChange} rows="8" placeholder='enter text here'  
